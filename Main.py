@@ -11,7 +11,7 @@ def display_hash(hashtable) -> None:
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
 
-def insert(Hashtable, keyvalue, value) -> None
+def insert(Hashtable, keyvalue, value) -> None:
 	# Write your code here
 	Hashtable[keyvalue % len(Hashtable)].append(value)
 
@@ -21,7 +21,7 @@ hash_table_size = int(input())
 # Create Hashtable as a list of list.
 HashTable = [[] for _ in range(hash_table_size)]
 input_data = input()
-data = []
+data = 
 for item in re.split('], |].', input_data):
   item = item[1:]
   data = item.split(', ')
